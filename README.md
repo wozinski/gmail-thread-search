@@ -6,18 +6,20 @@ You might find GTS useful, if:
 - you dislike Gmail's Conversation View and prefer seeing e-mails one by one,
 - but you find it inconvenient to easily look for other e-mails in the same thread with Conversation View disabled.
 
-GTS lets you find other e-mails in your Gmail account with the same subject, by using a keyboard shortcut. Let's assume you're looking at an e-mail with the following subject: *Re: FWD: URGENT!! Why is 42 a magic number???*. Now, you would like to see other e-mails that you've sent/received in this thread. With GTS, you simply need to press Ctrl+Shift+L in order to put the e-mail subject into your system clipboard, in the Gmail search-friendly format
+GTS lets you find other e-mails in your Gmail account with the same subject, by using a keyboard shortcut.
 
-- without all "Re: ", "Fwd: ", etc.
-- prepended by *subject:*, with subject put in quotation marks.  
+Let's assume you're looking at an e-mail with the following subject: *Re: FWD: URGENT!! Why is 42 a magic number???*. Now, you would like to see other e-mails that you've sent/received in this thread. With GTS, you simply need to press Ctrl+Shift+L in order to put the e-mail subject into your system clipboard, in the Gmail search-friendly format, i.e.:
 
-So if you press Ctrl+Shift+L when looking at the e-mail in the example above, you'll end up putting the following string into your system clipboard:
+- without all "Re: ", "Fwd: ", etc.,
+- prepended by *subject:*, with the subject itself put in quotation marks.  
+
+So if you press Ctrl+Shift+L when looking at the e-mail in the example above, you'll end up having the following string put into your system clipboard:
 ```
  subject: "URGENT!! Why is 42 a magic number???"
 ``` 
  
  At this point you're a step away from getting the list of e-mails in this thread. What you need to do is:
- 1. press / (focuses the Gmail search box, in case you have Gmail keyboard shortcuts enabled - which I highly recommend, they're super useful)
+ 1. press / (focuses the Gmail search box, in case you have Gmail keyboard shortcuts enabled - which I highly recommend, they're super useful),
  2. paste the clipboard (Ctrl+V, obviously)
  3. Press Enter
 
@@ -37,6 +39,7 @@ The extension is for now not available on Chrome Extension Store, so you need to
 
 ## FAQ
 Q: Will there be a Firefox / Safari / Edge / lynx / whatnot version of this extension?
+
 A: Would be great, but I won't be implementing it. Feel free to add it :)
 
 ## Did you make it that far?
