@@ -1,0 +1,25 @@
+{
+  "name": "Copy Gmail Email Subject",
+  "version": "1.0.0",
+  "description": "The extension allows users to copy email subject to clipboard with a keyboard shortcut",
+  "permissions": ["activeTab", "declarativeContent"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "commands": {
+    "copy_subject": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y"
+      },
+      "description": "Copy subject to clipboard"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "manifest_version": 2
+}
