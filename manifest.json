@@ -1,7 +1,7 @@
 {
-  "name": "Copy Gmail Email Subject",
+  "name": "GTS - Gmail Thread Search",
   "version": "1.0.0",
-  "description": "The extension allows users to copy email subject to clipboard with a keyboard shortcut",
+  "description": "The extension allows users to copy email subject to clipboard with a keyboard shortcut, in a format usable by Gmail's search box, in order to enable finding all e-mails with this subject",
   "permissions": ["activeTab", "declarativeContent"],
   "background": {
     "scripts": ["background.js"],
@@ -10,7 +10,7 @@
   "commands": {
     "copy_subject": {
       "suggested_key": {
-        "default": "Ctrl+Shift+Y"
+        "default": "Ctrl+Shift+L"
       },
       "description": "Copy subject to clipboard"
     }
